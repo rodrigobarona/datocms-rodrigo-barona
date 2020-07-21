@@ -10,7 +10,6 @@ import {
   faDribbble,
   faInstagram,
   faYoutube,
-  faCamera,
   faLinkedin,
   faBehance,
   faMedium
@@ -28,7 +27,6 @@ library.add(faInstagram);
 library.add(faYoutube);
 library.add(faGlobe);
 library.add(faFacebook);
-library.add(faCamera);
 library.add(faLinkedin);
 library.add(faBehance);
 library.add(faMedium);
