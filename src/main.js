@@ -12,7 +12,8 @@ import {
   faYoutube,
   faLinkedin,
   faBehance,
-  faMedium
+  faMedium,
+  faUnsplash
 } from "@fortawesome/free-brands-svg-icons";
 import VueMeta from "vue-meta";
 
@@ -30,6 +31,7 @@ library.add(faFacebook);
 library.add(faLinkedin);
 library.add(faBehance);
 library.add(faMedium);
+library.add(faUnsplash);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.use(DatocmsImagePlugin);
