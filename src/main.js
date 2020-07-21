@@ -9,7 +9,11 @@ import {
   faGithub,
   faDribbble,
   faInstagram,
-  faYoutube
+  faYoutube,
+  faUnsplash,
+  faLinkedin,
+  faBehance,
+  faMedium
 } from "@fortawesome/free-brands-svg-icons";
 import VueMeta from "vue-meta";
 
@@ -24,6 +28,10 @@ library.add(faInstagram);
 library.add(faYoutube);
 library.add(faGlobe);
 library.add(faFacebook);
+library.add(faUnsplash);
+library.add(faLinkedin);
+library.add(faBehance);
+library.add(faMedium);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.use(DatocmsImagePlugin);
